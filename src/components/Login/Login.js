@@ -85,7 +85,7 @@ const [loggedInUser, setLoggedInUser] = useContext(UserContext);
 
   const handleBlur = (e) => {
   
-    let isFieldValid;
+    let isFieldValid = true;
   
     if (e.target.name === "email") {
       isFieldValid = /\S+@\S+\.\S+/.test(e.target.value)
@@ -114,9 +114,10 @@ const [loggedInUser, setLoggedInUser] = useContext(UserContext);
   const handleSubmit = (e) => {
     if (newUser && user.email && user.password) {
       firebase.auth().createUserWithEmailAndPassword(user.email, user.password)
-            .then((userCredential) => {
-              const newUserInfo = {...user};
+            .then((userCredential) => { 
+              const newUserInfo = {...userCredential.user};
               newUserInfo.success = true;
+              newUserInfo.displayName = user.name;
               setLoggedInUser(newUserInfo);
               setUser(newUserInfo);
               updateUserName(user.name);
@@ -133,7 +134,7 @@ const [loggedInUser, setLoggedInUser] = useContext(UserContext);
        if (!newUser && user.email && user.password) {
         firebase.auth().signInWithEmailAndPassword(user.email, user.password)
         .then((userCredential) => {
-          const newUserInfo = {...user};
+          const newUserInfo = {...userCredential.user};
           newUserInfo.success = true;
           setLoggedInUser(newUserInfo);
           setUser(newUserInfo);

@@ -30,11 +30,13 @@ function App() {
         <Destination />
       </PrivateRoute>
       <PrivateRoute path="/destination">
-        <Destination />
+        <Login />
       </PrivateRoute>
-      
       <Route path="/login">
         <Login />
+      </Route>
+      <Route path="*">
+        <h1 className="text-center text-danger mt-5">404 No result</h1>
       </Route>
     </Switch>
   </Router>

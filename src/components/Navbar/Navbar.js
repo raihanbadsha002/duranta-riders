@@ -5,6 +5,7 @@ import menu from '../../images/humIcon.svg';
 import './Navbar.css'
 const Navbar = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
+
     return (
         <div>
             <nav className="navbar navbar-expand-lg">
@@ -31,7 +32,7 @@ const Navbar = () => {
                     <button className="btn btn-danger btn-sm px-3 login__btn">
                       <Link className="nav-link text-white" to="/login">Login</Link>
                     </button> 
-                    <h6 className="pt-2 pl-2 text-info">{loggedInUser.name}</h6>
+                    <h6 className="pt-2 pl-2 text-info">{loggedInUser.name || loggedInUser.displayName}</h6>
                 </ul>     
                 </div>
             </div>
