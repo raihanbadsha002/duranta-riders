@@ -1,0 +1,27 @@
+.login__create{
+    text-decoration: underline;
+}
+.or__text{
+position: relative;
+
+}
+.or__text::before{
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: #99999b;
+    width: 150px;
+    height: 1px;
+    left: 21px;
+    top: 63%;
+}
+.or__text::after{
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: #99999b;
+    width: 150px;
+    height: 1px;
+    right: 21px;
+    top: 63%;
+}

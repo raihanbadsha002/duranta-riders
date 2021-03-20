@@ -1,0 +1,28 @@
+.navbar{
+    background: transparent !important;
+}
+.navbar-brand{
+    color:#00ce56;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.navbar-brand:hover{
+    color:#00ce56;
+}
+.nav__brand{
+    color:#0caffa;
+}
+.nav-link{
+    color: #a0a0a0;
+}
+.nav-link:hover{
+    color: #00ce56;
+}
+.menuIcon img{
+    width: 1.8rem;
+  }
+@media (max-width: 768px){
+    .login__btn{
+        margin: 1rem 0 ;
+    }
+}

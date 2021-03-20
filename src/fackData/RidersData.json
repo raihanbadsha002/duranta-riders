@@ -1,0 +1,24 @@
+[{
+     "id": 1,   
+     "title": "Bike",
+     "imgUrl": "https://i.ibb.co/LRPSy3j/51b-KFp6kb-LL-SX300-SY300-QL70-ML2.jpg",
+     "price": 120
+    },
+    {
+     "id": 2,   
+     "title": "Car",
+     "imgUrl": "https://i.ibb.co/5k4fWb2/Toyota-Voxy-White-Background-300x300.png",
+     "price": 80
+    },
+    {
+     "id": 3,   
+     "title": "Bus",
+     "imgUrl": "https://i.ibb.co/dkJFsJ9/0caff5d95034dbd790eba60a91a09d3a4b331b48.jpg",
+     "price": 70
+    },
+    {
+     "id": 4,   
+     "title": "Train",
+     "imgUrl": "https://i.ibb.co/WBhcXfH/1537327-indian-train-simulator-driver-png-image-of-train-png-hd-train-express-train-png-300-300-prev.png",
+     "price": 65
+    }]
