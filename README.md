@@ -1,6 +1,4 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 # Website Name
 
  ⏩ Duranta-Riders
@@ -8,19 +6,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 👀 See the live site [Open](https://duranta-riders.firebaseapp.com/)
 
+# Description
+❖ On the Durant Riders website, a passenger in a vehicle like bus, train, or bike will select the vehicle of his choice to reach his destination. Passengers must first login to the website. The passenger will then be able to book his selected vehicle.
+
+### `Which Feature add in the website`
+    ⏩ Add new riders
+    ⏩ login system
+    ⏩ Firebase Authentication
+    ⏩ Loading Spinner.
+
 ### `Which has been used in the website`
- 🔼 "firebase"
- 🔼 "react-router-dom": "^5.2.0".
- 🔼 "react-google-maps"
- 🔼 "bootstrap": "^5.0.0-alpha1".
-
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    🔼 "firebase"
+    🔼 "react-router-dom": "^5.2.0".
+    🔼 "react-google-maps"
+    🔼 "bootstrap": "^5.0.0-alpha1".
